@@ -56,3 +56,12 @@ body {
 	display:none;
 }
 
+footer {
+  position: relative;
+  margin-top: 200px;
+  width: 100%;
+  paddind: 50px;
+  clear: both;
+  text-align: center;
+  color:brown;
+}
