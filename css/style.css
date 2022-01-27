@@ -34,7 +34,7 @@ body {
 }
 
 .btn {
-  border: 0;
+  border: 2;
   color: white;
   font-weight: bold;
   background-color: blue;
@@ -60,8 +60,16 @@ footer {
   position: relative;
   margin-top: 200px;
   width: 100%;
-  padding: 50px;
+  padding: 20px;
   clear: both;
   text-align: center;
-  color:brown;
+  color:rgb(0, 0, 0);
+  background: lightblue;
+  font-style: italic;
+}
+
+#error{
+  color: rgb(0, 0, 0);
+  background: yellow;
+  font-style:italic;
 }
