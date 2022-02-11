@@ -4,9 +4,14 @@
   box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 body {
-  background-color: lightgray;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url("../imagenes/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*background-color: lightgray;*/
+  font-family: bebas neue;
 }
 
 .main {
@@ -17,10 +22,17 @@ body {
 }
 
 .titulo {
+  font-size: 60px;
+  color: white;
   padding: 15px;
   width: 30vw;
   margin: auto;
 
+}
+
+h2{
+  font-size: 27px;
+  font-style: italic;
 }
 
 .box {
@@ -56,20 +68,27 @@ body {
 	display:none;
 }
 
+#texto-explicacion{
+  font-size: 25px;
+}
+
 footer {
-  position: relative;
+  position:relative;
   margin-top: 200px;
   width: 100%;
-  padding: 20px;
+  padding: 5px;
   clear: both;
   text-align: center;
   color:rgb(0, 0, 0);
   background: lightblue;
   font-style: italic;
+  font-size: 30px;
 }
 
 #error{
   color: rgb(0, 0, 0);
   background: yellow;
   font-style:italic;
+  font-size: 20px;
 }
+
