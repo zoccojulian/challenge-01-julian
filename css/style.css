@@ -82,7 +82,7 @@ footer {
   color:rgb(0, 0, 0);
   background: lightblue;
   font-style: italic;
-  font-size: 30px;
+  font-size: 25px;
 }
 
 #error{
@@ -92,3 +92,8 @@ footer {
   font-size: 20px;
 }
 
+#created{
+  margin-top:auto;
+  padding-left: 15px;
+  size: 10px;
+}
