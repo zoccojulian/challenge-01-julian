@@ -7,27 +7,33 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-image: url("../imagenes/fondo.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  /*background-color: lightgray;*/
+  background-attachment: fixed;
+  background-position-x: right;
   font-family:'Bebas Neue';
 }
 
+
+
 .main {
-  width: 80vw;
-  margin: auto;
+  width: 100%;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  gap: 2vh;
 }
 
 .titulo {
+  width: 100%;
   font-size: 60px;
   color: white;
-  padding: 15px;
-  width: 30vw;
-  margin: auto;
-
+  padding: 1rem 0;
+  text-align: center;
 }
 
 h2{
@@ -73,17 +79,22 @@ h2{
 }
 
 footer {
-  position:relative;
-  margin-top: 200px;
+  display: flex;
+  vertical-align: middle;
   width: 100%;
-  padding: 5px;
-  clear: both;
-  text-align: center;
-  color:rgb(0, 0, 0);
+  margin-top: 200px;
   background: lightblue;
-  font-style: italic;
-  font-size: 25px;
+  justify-content: center;
+  gap: 0.5vh;
+  padding: 0.7rem 0;
 }
+
+footer a{
+  display: flex;
+  vertical-align: middle;
+}
+
+
 
 #error{
   color: rgb(0, 0, 0);
@@ -93,7 +104,43 @@ footer {
 }
 
 #created{
-  margin-top:auto;
-  padding-left: 15px;
+  display: flex;
+  align-items: center;
   size: 10px;
+}
+
+@media only screen and (max-width: 1040px){
+
+  .main {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .box{
+      width: 100%;
+    }
+  
+
+}
+
+@media only screen and (max-width: 768px){
+
+  .main {
+    width: 80%;
+  }
+
+  .titulo {
+    font-size: 40px;
+  }
+
+  #texto-explicacion{
+    font-size: 1em;
+  }
+
+  h2{
+    font-size: 1.3em;
+  }
+
 }
