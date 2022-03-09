@@ -1,5 +1,4 @@
-# challenge-01-julian
-challenge alura 01
+# ENCRIPTADOR / Challenge 1 AluraLatam
 
 Desafío 1 del programa Oracle One - Alura Latam.
 
